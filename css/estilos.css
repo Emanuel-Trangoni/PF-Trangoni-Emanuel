@@ -176,6 +176,7 @@ margin: auto;
 .box__card-primary :hover{
     border: 1px solid transparent;
     box-shadow: var(--box_shadown-primary);
+    
 }
 
 .box__card-primary h2{
@@ -450,12 +451,15 @@ button:hover {
     border: 1px solid #007BFF;
     border-radius: 5px;
     padding: 5px 10px;px
+
 }
+
+
 
 /* CONTACTO MAPA */
 
 .container__map {
-    margin-left: 20px;
+margin left 20px;
     
     
 }
