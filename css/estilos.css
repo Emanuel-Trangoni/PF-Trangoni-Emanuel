@@ -200,11 +200,11 @@ container__about {
     margin: auto;
     padding: 0px 20px;
     display: flex;
-    justify-content: space-between; /* Asegura que haya espacio entre los elementos */
+    justify-content: space-between; 
 }
 
 .text__about {
-    width: 48%; /* Ajusta según tus necesidades */
+    width: 48%; 
     padding-right: 20px;
 }
 
@@ -217,9 +217,9 @@ container__about {
 }
 
 .image__about {
-    width: 48%; /* Ajusta según tus necesidades */
+    width: 48%; 
     display: flex;
-    justify-content: flex-end; /* Coloca la imagen a la derecha en pantallas grandes */
+    justify-content: flex-end; 
 }
 
 .image__about img {
@@ -362,8 +362,8 @@ footer{
 /* FORMULARIOS */
 .container {
     display: flex;
-    justify-content: space-between; /* Añade este estilo */
-    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
+    justify-content: space-between;
+    max-width: 100%; 
     margin: 0 auto;
     padding: 20px;
     /* border: 1px solid #1A5276; */
@@ -379,7 +379,7 @@ footer{
 .text-container h1 {
     color: #1A5276;
     font-size: 50px;
-    margin-bottom: 40px; /* Ajusta según sea necesario */
+    margin-bottom: 40px; 
 }
 
 .text-container h2 {
@@ -390,11 +390,11 @@ footer{
 
 .text-container p {
     color: #1A5276;
-    margin-bottom: 20px; /* Ajusta según sea necesario */
+    margin-bottom: 20px; 
 }
 
 .form-group {
-    margin-bottom: 15px; /* Ajusta según sea necesario */
+    margin-bottom: 15px; 
     color: #1A5276;
 }
 
@@ -435,11 +435,11 @@ button:hover {
 
 
 .card-description {
-    display: none; /* Inicialmente oculta la descripción */
+    display: none; 
 }
 
 .card-description.show {
-    display: block; /* Muestra la descripción cuando tiene la clase 'show' */
+    display: block; 
 }
 
 .toggle-button {
@@ -449,7 +449,83 @@ button:hover {
     background-color: #fff;
     border: 1px solid #007BFF;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 10px;px
+}
+
+/* CONTACTO MAPA */
+
+.container__map {
+    margin-left: 20px;
+    
+    
+}
+
+/* INFOR UTIL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container__info__util{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.text__INFO {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px;
+}
+.text__INFO h1 {
+    text-align: center;
+    color: #1a5276;
+
+}
+
+.text__INFO h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.text__INFO p{
+    text-align: center;
+    color: #1a5276;
+    padding: 1px;
+}
+.image {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #1a5276;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
 }
 
 
@@ -459,15 +535,15 @@ button:hover {
     .mensaje-SocialMedia-box,
     .mensaje-box,
     .SocialMedia-box {
-        display: none;
+    display: none;
     }
 
     .header-content {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centra horizontalmente */
-        justify-content: center; /* Centra verticalmente */
-        height: 100vh; /* O ajusta la altura según tu diseño */
+        align-items: center; 
+        justify-content: center; 
+        height: 100vh; 
     }
 
     .logo img {
@@ -476,22 +552,22 @@ button:hover {
         display: inline-block;
     }
     .about {
-        flex-direction: column; /* Cambia la dirección de flexión para colocar elementos uno encima del otro */
-        align-items: center; /* Centra los elementos en el eje transversal */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .text__about,
     .image__about {
-        width: 100%; /* Ocupa el ancho completo en pantallas más pequeñas */
-        padding: 0; /* Elimina el relleno en pantallas más pequeñas */
-        text-align: center; /* Centra el texto en el eje principal */
-        justify-content: center; /* Centra la imagen en el eje principal */
+        width: 100%; 
+        padding: 0; 
+        text-align: center; 
+        justify-content: center; 
     }
 
     .form-container {
         width: 40%;
         padding-top: 125px;
-        margin-bottom: 5px; /* Reduzca el ancho del formulario para pantallas medianas */
+        margin-bottom: 5px; 
     }
     .container {
         flex-direction: column;

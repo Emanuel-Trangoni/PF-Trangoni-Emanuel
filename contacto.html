@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Contacto</title>
+
+
+    
+</head>
+
+<body>
+
+     <!-- LINEA SUPERIOR -->
+     <hr class="linea-superior">
+
+
+     <!-- CONTENEDOR SUPERIOR -->
+     <div class="header-content">
+         <div class="logo">
+             <a href="#">
+                 <img src="./img/Trangoni_emanuel_1_-removebg-preview.png" alt="logo empresa">
+             </a>
+         </div>
+         <div class="mensaje-SocialMedia-box">
+             <div class="mensaje-box">
+                 <div class="mensaje">
+                     <p>Estamos seguros de poder brindarle un Servicio para la Gestión diaria</p>
+                 </div>
+             </div>
+             <div class="SocialMedia-box">
+                 <div class="SocialMedia">
+                     <a href="#">
+                         <img src="./img/facebook.png" alt="face">
+                     </a>
+                     <a href="#">
+                         <img src="./img/instagram.png" alt="Ig">
+                     </a>
+                     <a href="#">
+                         <img src="./img/twiter.png" alt="twiter">
+                     </a>
+                     <a href="#">
+                         <img src="./img/youtube.png" alt="youtube">
+                     </a>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+
+
+
+     <!-- MENU NAV -->
+     <div class="row">
+
+
+         <div class="col-12 d-flex justify-content-start" style="background-color: #1A5276; ">
+             <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #1A5276;">
+                 <div class="container-fluid">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #1A5276;">
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                         <ul class="navbar-nav ml-auto">
+                             <li class="nav-item">
+                                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                             </li>
+                             <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                     Servicios
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                     <li><a class="dropdown-item" href="personas.html">Personas</a></li>
+                                     <li><a class="dropdown-item" href="empresas.html">Empresas</a></li>
+                                 </ul>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="#">Info Util</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="#">Contacto</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </nav>
+         </div>
+     </div>
+
+     <!-- formulario y mapa -->
+     <div class="container__map">
+        <div class="row">
+            <div class="col-md-6 order-md-2">
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <h2>Contacto</h2>
+                </div>
+                <!-- Mapa de Google -->
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.457324133772!2d-58.2740091!3d-34.7686957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32ea373c61147%3A0x15ecd414698635c7!2sAv.%20Calchaqu%C3%AD%205044%2C%20B1882%20Quilmes%20Oeste%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1639506548001!5m2!1ses!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <!-- Dirección -->
+                <div class="address">
+                    <h4>Dirección</h4>
+                    <p>Av. Calchaquí 5044, B1882 Quilmes Oeste, Provincia de Buenos Aires</p>
+                    <!-- Iconos para teléfono y correo electrónico -->
+                    <div class="contact-icons">
+                        <i class="fas fa-phone"></i> 15-32795236
+                        <br>
+                        <i class="fas fa-envelope"></i> segtrangoni@gmail.com
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 order-md-1">
+                <!-- Formulario de contacto -->
+                <div class="form">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="nombreApellido">Nombre y Apellido:</label>
+                            <input type="text" class="form-control" name="nombreApellido" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="empresa">Empresa:</label>
+                            <input type="text" class="form-control" name="empresa">
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" class="form-control" name="correo" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea class="form-control" name="mensaje" rows="4" required></textarea>
+                        </div>
+    
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- FOOTER -->
+
+<footer>
+    <div class="container-footer-all">
+
+        <div class="container-body">
+
+            <div class="colum1">
+                <h1>Mas informacion de la compañia</h1>
+
+                <p>Soy Emanuel Trangoni,  Me desempeño en la actividad desde el año 2015 como profesional independiente.
+
+                   Realicé mis estudios en la Cacipra - Camara de Comercio y Produccion de la Republica Argentina.
+                   Me gusta desempeñarme en el ámbito y formar vínculos, por eso realizo esta labor con dedicación y empeño realizando cursos de actualización y perfeccionamiento constantemente.
+
+                   Te invito a que me contactes para brindarte soluciones integradas que se ajusten a tus necesidades, patrimonio y seres queridos. .</p>
+                   <img src="./img/Trangoni_emanuel_1_-removebg-preview.png" alt="logo">
+
+            </div>
+
+            <div class="colum2">
+
+                <h1>Redes Sociales</h1>
+
+                <div class="fila">
+                    <img src="./img/footer/facebook.png" alt="icono-facebook">
+                    <label>Siguenos en Facebook</label>
+                </div>
+                <div class="fila">
+                    <img src="./img/footer/twitter.png" alt="icono_twitter">
+                    <label>Siguenos en Twitter</label>
+                </div>
+                <div class="fila">
+                    <img src="./img/footer/instagram.png" alt="icono_instagram">
+                    <label>Siguenos en Instagram</label>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="colum3">
+
+                <h1>Contactanos</h1>
+
+                <div class="fila2">
+                    <img src="./img/footer/house.png">
+                    <label>Av. Calchaqui 5044,
+                           Quilmes
+                           Buenos Aires
+                    </label>
+                </div>
+
+                <div class="fila2">
+                    <img src="./img/footer/smartphone.png">
+                    <label>+54 9 11-32795236</label>
+                </div>
+
+                <div class="fila2">
+                    <img src="./img/footer/contact.png">
+                     <label>segtrangoni@gmail.com</label>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-footer">
+           <div class="footer">
+                <div class="copyright">
+                    © 2023 Todos los Derechos Reservados | <a href="">Trangoni Emanuel</a>
+                </div>
+
+                <div class="information">
+                    <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                </div>
+            </div>
+
+        </div>
+
+
+</footer>
+     
+       
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </body>
+
+</html>
