@@ -231,7 +231,7 @@ footer .information a {
   height: 250px;
 }
 .container-footer-all .container-body .colum2 {
-  max-width: 400px;
+  max-width: 1000px;
 }
 .container-footer-all .container-body h1 {
   font-size: 22px;
@@ -239,15 +239,16 @@ footer .information a {
 .container-footer-all .container-body .fila {
   margin-top: 20px;
   display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
 }
 .container-footer-all .container-body .fila img {
   width: 36px;
   height: 36px;
 }
 .container-footer-all .container-body label {
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 20px; /* Puedes ajustar según sea necesario */
   color: #C7C7C7;
+  white-space: nowrap;
 }
 .container-footer-all .container-body .colum3 {
   max-width: 400px;
@@ -355,12 +356,6 @@ button:hover {
   margin-bottom: 20px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .container__info__util {
   max-width: 1200px;
   margin: 0 auto;
@@ -405,9 +400,9 @@ body {
 }
 .text__INFO .linea {
   border-bottom: 5px solid #1A5276;
-  padding-bottom: 6px; /* Ajusta según sea necesario para que no esté pegado al texto */
-  width: 150px; /* Ajusta la longitud según sea necesario */
-  display: inline-block; /* Para que el ancho afecte solo a la línea, no a toda la línea de texto */
+  padding-bottom: 6px;
+  width: 150px;
+  display: inline-block;
   margin-bottom: 10px;
 }
 .text__INFO h3 {
@@ -486,13 +481,6 @@ img {
   font-weight: bold;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -548,13 +536,6 @@ body {
 }
 .contact-info .whatsapp-box .whatsapp-label {
   font-weight: bold;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 20px;
 }
 
 .card {
