@@ -33,6 +33,13 @@
   text-align: center;
   margin-right: 300px;
 }
+.header-content .mensaje-SocialMedia-box .mensaje {
+  font-size: 18px;
+  color: #1A5276;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
 .header-content .SocialMedia {
   display: flex;
   align-items: center;

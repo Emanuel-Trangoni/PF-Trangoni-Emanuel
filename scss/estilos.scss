@@ -36,6 +36,15 @@
         text-align: center;
         margin-right: 300px;
     }
+
+    .mensaje{
+      
+      font-size: 18px;
+      color: $Color_text-sencudary;
+      text-align: center;
+      padding-top: 20px;
+      font-family:'Times New Roman', Times, serif;
+    }
 }
     .SocialMedia {
         display: flex;
